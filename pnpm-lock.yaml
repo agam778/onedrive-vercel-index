@@ -146,8 +146,8 @@ devDependencies:
     specifier: ^4.0.2
     version: 4.2.2
   '@types/node':
-    specifier: 18.19.39
-    version: 18.19.39
+    specifier: 20.17.2
+    version: 20.17.2
   '@types/react':
     specifier: 18.3.3
     version: 18.3.3
@@ -744,7 +744,7 @@ packages:
   /@types/cors@2.8.17:
     resolution: {integrity: sha512-8CGDvrBj1zgo2qE+oS3pOCyYNqCPryMWY2bGfwA0dcfopWGgxs+78df0Rs3rc9THP4JkOhLsAa+15VdpAqkcUA==}
     dependencies:
-      '@types/node': 18.19.39
+      '@types/node': 20.17.2
     dev: true
 
   /@types/crypto-js@4.2.2:
@@ -826,10 +826,10 @@ packages:
     resolution: {integrity: sha512-nG96G3Wp6acyAgJqGasjODb+acrI7KltPiRxzHPXnP3NgI28bpQDRv53olbqGXbfcgF5aiiHmO3xpwEpS5Ld9g==}
     dev: false
 
-  /@types/node@18.19.39:
-    resolution: {integrity: sha512-nPwTRDKUctxw3di5b4TfT3I0sWDiWoPQCZjXhvdkINntwr8lcoVCKsTgnXeRubKIlfnV+eN/HYk6Jb40tbcEAQ==}
+  /@types/node@20.17.2:
+    resolution: {integrity: sha512-OOHK4sjXqkL7yQ7VEEHcf6+0jSvKjWqwnaCtY7AKD/VLEvRHMsxxu7eI8ErnjxHS8VwmekD4PeVCpu4qZEZSxg==}
     dependencies:
-      undici-types: 5.26.5
+      undici-types: 6.19.8
     dev: true
 
   /@types/nprogress@0.2.0:
@@ -5930,8 +5930,8 @@ packages:
       util-deprecate: 1.0.2
     dev: true
 
-  /undici-types@5.26.5:
-    resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}
+  /undici-types@6.19.8:
+    resolution: {integrity: sha512-ve2KP6f/JnbPBFyobGHuerC9g1FYGn/F8n1LWTwNxCEzd6IfqTwUQcNXgEtmmQ6DlRrC1hrSrBnCZPokRrDHjw==}
     dev: true
 
   /unified@10.1.1:
