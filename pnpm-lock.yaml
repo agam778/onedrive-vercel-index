@@ -66,8 +66,8 @@ dependencies:
     specifier: ^13.1.6
     version: 13.5.7(react-dom@18.3.1)(react@18.3.1)
   next-i18next:
-    specifier: ^13.0.3
-    version: 13.3.0(i18next@22.5.1)(next@13.5.7)(react-i18next@12.3.1)(react@18.3.1)
+    specifier: ^15.0.0
+    version: 15.3.1(i18next@22.5.1)(next@13.5.7)(react-i18next@12.3.1)(react@18.3.1)
   nextjs-progressbar:
     specifier: ^0.0.16
     version: 0.0.16(next@13.5.7)(react@18.3.1)
@@ -2947,8 +2947,8 @@ packages:
       entities: 4.5.0
     dev: true
 
-  /i18next-fs-backend@2.3.1:
-    resolution: {integrity: sha512-tvfXskmG/9o+TJ5Fxu54sSO5OkY6d+uMn+K6JiUGLJrwxAVfer+8V3nU8jq3ts9Pe5lXJv4b1N7foIjJ8Iy2Gg==}
+  /i18next-fs-backend@2.3.2:
+    resolution: {integrity: sha512-LIwUlkqDZnUI8lnUxBnEj8K/FrHQTT/Sc+1rvDm9E8YvvY5YxzoEAASNx+W5M9DfD5s77lI5vSAFWeTp26B/3Q==}
     dev: false
 
   /i18next-parser@7.9.0:
@@ -4176,21 +4176,21 @@ packages:
     resolution: {integrity: sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==}
     dev: true
 
-  /next-i18next@13.3.0(i18next@22.5.1)(next@13.5.7)(react-i18next@12.3.1)(react@18.3.1):
-    resolution: {integrity: sha512-X4kgi51BCOoGdKbv87eZ8OU7ICQDg5IP+T5fNjqDY3os9ea0OKTY4YpAiVFiwcI9XimcUmSPbKO4a9jFUyYSgg==}
+  /next-i18next@15.3.1(i18next@22.5.1)(next@13.5.7)(react-i18next@12.3.1)(react@18.3.1):
+    resolution: {integrity: sha512-+pa2pZJb7B6k5PKW3TLVMmAodqkNaOBWVYlpWX56mgcEJz0UMW+MKSdKM9Z72CHp6Bp48g7OWwDnLqxXNp/84w==}
     engines: {node: '>=14'}
     peerDependencies:
-      i18next: ^22.0.6
+      i18next: '>= 23.7.13'
       next: '>= 12.0.0'
       react: '>= 17.0.2'
-      react-i18next: ^12.2.0
+      react-i18next: '>= 13.5.0'
     dependencies:
       '@babel/runtime': 7.24.7
       '@types/hoist-non-react-statics': 3.3.5
-      core-js: 3.37.1
+      core-js: 3.38.1
       hoist-non-react-statics: 3.3.2
       i18next: 22.5.1
-      i18next-fs-backend: 2.3.1
+      i18next-fs-backend: 2.3.2
       next: 13.5.7(react-dom@18.3.1)(react@18.3.1)
       react: 18.3.1
       react-i18next: 12.3.1(i18next@22.5.1)(react-dom@18.3.1)(react@18.3.1)
