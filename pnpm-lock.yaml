@@ -146,8 +146,8 @@ devDependencies:
     specifier: ^4.0.2
     version: 4.2.2
   '@types/node':
-    specifier: 18.19.64
-    version: 18.19.64
+    specifier: 18.19.65
+    version: 18.19.65
   '@types/react':
     specifier: 18.3.12
     version: 18.3.12
@@ -744,7 +744,7 @@ packages:
   /@types/cors@2.8.17:
     resolution: {integrity: sha512-8CGDvrBj1zgo2qE+oS3pOCyYNqCPryMWY2bGfwA0dcfopWGgxs+78df0Rs3rc9THP4JkOhLsAa+15VdpAqkcUA==}
     dependencies:
-      '@types/node': 18.19.64
+      '@types/node': 18.19.65
     dev: true
 
   /@types/crypto-js@4.2.2:
@@ -826,8 +826,8 @@ packages:
     resolution: {integrity: sha512-nG96G3Wp6acyAgJqGasjODb+acrI7KltPiRxzHPXnP3NgI28bpQDRv53olbqGXbfcgF5aiiHmO3xpwEpS5Ld9g==}
     dev: false
 
-  /@types/node@18.19.64:
-    resolution: {integrity: sha512-955mDqvO2vFf/oL7V3WiUtiz+BugyX8uVbaT2H8oj3+8dRyH2FLiNdowe7eNqRM7IOIZvzDH76EoAT+gwm6aIQ==}
+  /@types/node@18.19.65:
+    resolution: {integrity: sha512-Ay5BZuO1UkTmVHzZJNvZKw/E+iB3GQABb6kijEz89w2JrfhNA+M/ebp18pfz9Gqe9ywhMC8AA8yC01lZq48J+Q==}
     dependencies:
       undici-types: 5.26.5
     dev: true
