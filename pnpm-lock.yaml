@@ -61,7 +61,7 @@ dependencies:
     version: 3.10.1
   mpegts.js:
     specifier: ^1.7.2
-    version: 1.7.3
+    version: 1.8.0
   next:
     specifier: ^13.1.6
     version: 13.5.8(react-dom@18.3.1)(react@18.3.1)
@@ -4162,11 +4162,11 @@ packages:
     engines: {node: '>0.9'}
     dev: true
 
-  /mpegts.js@1.7.3:
-    resolution: {integrity: sha512-kqZ1C1IsbAQN72cK8vMrzKeM7hwrwSBbFAwVAc7PPweOeoZxCANrc7fAVDKMfYUzxdNkMTnec9tVmlxmKZB0TQ==}
+  /mpegts.js@1.8.0:
+    resolution: {integrity: sha512-ZtujqtmTjWgcDDkoOnLvrOKUTO/MKgLHM432zGDI8oPaJ0S+ebPxg1nEpDpLw6I7KmV/GZgUIrfbWi3qqEircg==}
     dependencies:
       es6-promise: 4.2.8
-      webworkify-webpack: 2.1.5
+      webworkify-webpack: github.com/xqq/webworkify-webpack/24d1e719b4a6cac37a518b2bb10fe124527ef4ef
     dev: false
 
   /mri@1.2.0:
@@ -6122,10 +6122,6 @@ packages:
     engines: {node: '>= 8'}
     dev: true
 
-  /webworkify-webpack@2.1.5:
-    resolution: {integrity: sha512-2akF8FIyUvbiBBdD+RoHpoTbHMQF2HwjcxfDvgztAX5YwbZNyrtfUMgvfgFVsgDhDPVTlkbb5vyasqDHfIDPQw==}
-    dev: false
-
   /which-boxed-primitive@1.0.2:
     resolution: {integrity: sha512-bwZdv0AKLpplFY2KZRX6TvyuN7ojjr7lwkg6ml0roIy9YeuSr7JS372qlNW18UQYzgYK9ziGcerWqZOmEn9VNg==}
     dependencies:
@@ -6221,4 +6217,10 @@ packages:
 
   /zwitch@2.0.2:
     resolution: {integrity: sha512-JZxotl7SxAJH0j7dN4pxsTV6ZLXoLdGME+PsjkL/DaBrVryK9kTGq06GfKrwcSOqypP+fdXGoCHE36b99fWVoA==}
+    dev: false
+
+  github.com/xqq/webworkify-webpack/24d1e719b4a6cac37a518b2bb10fe124527ef4ef:
+    resolution: {tarball: https://codeload.github.com/xqq/webworkify-webpack/tar.gz/24d1e719b4a6cac37a518b2bb10fe124527ef4ef}
+    name: webworkify-webpack
+    version: 2.1.5
     dev: false
